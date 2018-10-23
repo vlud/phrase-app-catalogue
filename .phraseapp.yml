@@ -1,0 +1,13 @@
+phraseapp:
+  access_token: e4c7022438313a89e9846232fcd576d5aee6f2342e40aebfd422d8a9b5f067b2
+  project_id: ad36304c810ba0fdf384e6527660295e
+  push:
+    sources:
+    - file: ./MessagesBundle_<locale_name>.properties
+      params:
+        file_format: properties
+  pull:
+    targets:
+    - file: ./MessagesBundle_<locale_name>.properties
+      params:
+        file_format: properties
